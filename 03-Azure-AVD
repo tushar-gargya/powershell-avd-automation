@@ -1,0 +1,3 @@
+$Name = "03-Azure-AVD"
+Write-Output "Welcome to $Name"
+
