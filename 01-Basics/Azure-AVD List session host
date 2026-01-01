@@ -1,0 +1,10 @@
+<#
+Script Name: list-session-hosts.ps1
+Purpose: Lists all session hosts in an Azure AVD host pool
+Author: Tushar Gargya
+#>
+Connect-AzAccount
+
+Get-AzWvdSessionHost `
+  -ResourceGroupName "RG-AVD" (#`Resource group name)
+  -HostPoolName "Prod-HP" (# Hostpool Name)
