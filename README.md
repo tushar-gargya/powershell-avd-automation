@@ -17,3 +17,7 @@ Azure Virtual Desktop (AVD) and Nerdio workflows.
 - Nerdio automation
 - PowerShell scripting
 - Infrastructure automation
+
+## Prerequisites
+- Install Az module
+- Connect to Azure with Connect-AzAccount
